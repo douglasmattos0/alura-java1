@@ -1,4 +1,4 @@
-package br.com.alura.bytebank;
+package br.com.alura.bytebank_encapsulado;
 
 public class Cliente {
 
