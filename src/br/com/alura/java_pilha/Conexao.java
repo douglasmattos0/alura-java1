@@ -1,4 +1,3 @@
-package br.com.alura.java_pilha;
 
 public class Conexao implements AutoCloseable{
 	

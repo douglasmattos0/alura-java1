@@ -1,4 +1,4 @@
-package br.com.alura.bytebank_herdado_conta;
+package br.com.bytebank.banco.modelo;
 
 //new ContaCorrente()
 public class ContaCorrente extends Conta implements Tributavel {
@@ -23,4 +23,8 @@ public class ContaCorrente extends Conta implements Tributavel {
 		return super.saldo * 0.01;
 	}
 	
+	@Override
+	public String toString() {
+		return "ContaCorrente, " + super.toString();
+	}
 }

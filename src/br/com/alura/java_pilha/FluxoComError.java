@@ -1,5 +1,3 @@
-package br.com.alura.java_pilha;
-
 public class FluxoComError {
 
 	public static void main(String[] args) {
