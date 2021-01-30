@@ -1,3 +1,5 @@
+package br.com.alura.bytebank;
+
 public class TesteSacaNeagivo {
 	public static void main(String[] args) {
 		Conta conta = new Conta(6646,969060);
