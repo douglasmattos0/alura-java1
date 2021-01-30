@@ -1,4 +1,4 @@
-package bytebank_herdado_conta;
+package br.com.alura.bytebank_herdado_conta;
 
 //new ContaCorrente()
 public class ContaCorrente extends Conta implements Tributavel {
@@ -8,15 +8,15 @@ public class ContaCorrente extends Conta implements Tributavel {
 	}
 	
 	@Override
-	public boolean saca(double valor) {
+	public void saca(double valor) throws SaldoInsuficienteException{
 		double valorASacar = valor + 0.2;
-		return super.saca(valorASacar);
+		super.saca(valorASacar);
 	}
 
 	@Override
 	public void deposita(double valor) {
-      super.saldo += valor;
-  }
+        super.saldo += valor;
+    }
 
 	@Override
 	public double getValorImposto() {	

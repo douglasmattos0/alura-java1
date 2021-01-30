@@ -1,5 +1,4 @@
-package bytebank_herdado_conta;
-
+package br.com.alura.bytebank_herdado_conta;
 
 public interface Tributavel {
 
